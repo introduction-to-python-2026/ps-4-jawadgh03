@@ -10,8 +10,8 @@ def split_before_each_uppercases(formula):
             parts.append(formula[start:i])
             start = i
 
-    parts.append(formula[start:])
-    return parts
+      parts.append(formula[start:])
+      return parts
 
 def split_at_first_digit(formula):
     digit_location = 1
