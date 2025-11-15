@@ -13,7 +13,7 @@ def split_at_first_digit(formula):
     if digit_location == len(formula):
         return formula, 1
 
-    prefix = formula[:digit_location]
-    number = int(formula[digit_location:])
+       prefix = formula[:digit_location]
+       number = int(formula[digit_location:])
 
     return prefix, number
