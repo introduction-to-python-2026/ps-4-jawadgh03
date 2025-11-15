@@ -17,7 +17,7 @@ def split_at_first_digit(formula):
     digit_location = 1
         for ch in formula[1:]:
             if ch.isdigit():
-            break
+               break
        digit_location += 1
 
     if digit_location == len(formula):
